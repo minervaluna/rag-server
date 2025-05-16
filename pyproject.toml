@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "agentic-rag"
+version = "0.1.0"
+description = "An agentic RAG architecture using LangGraph, LangChain, and LlamaIndex."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{ include = "agents" }, { include = "graph" }, { include = "retriever" }, { include = "models" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.0.0"
+python-dotenv = "^1.0.0"
+huggingface_hub = "^0.20.0"
+requests-toolbelt = "^1.0.0"
+langchain = "^0.3.25"
+langgraph = "^0.4.5"
+llama-index = "^0.12.36"
+scikit-learn = "^1.6.1"
+langchain-community = "^0.3.24"
+mpmath = "^1.3.0"
+pyarrow = "^20.0.0"
+dill = "^0.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

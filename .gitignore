@@ -17,7 +17,7 @@
 .vscode
 
 # project #
-.data
-.models
-data
+#.data
+#.models
+#data
 .env
